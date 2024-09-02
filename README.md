@@ -53,8 +53,37 @@ For a complete list of changes, you can check out the CHANGELOG.md.
 
    python minesweeper_runner.py
 
+## 📅 Future Updates
+### v1.3 (Planned)
+
+### Enhanced User Experience:
+- Introduce tooltips across the interface to provide users with helpful hints and explanations.
+- Add a tutorial page to guide new users through the features and functions of MinesweeperAI.
+- Streamline the user interface by reorganising and optimising UI elements for better user flow.
+
+### Inference Logic Table Visuals:
+- Implement visual representations of the inference logic, allowing users to observe the decision-making process in real-time.
+
+### Improved Random Cell Selection:
+- Refine the random cell selection algorithm to enhance the AI's ability to strategically navigate the board.
+
+### Expanded Data Collection:
+- Add new data collection points, including timing, the number of random selections, and other metrics currently in development, to provide deeper insights into the AI's performance.
+
+### Feedback Sounds:
+- Introduce auditory feedback to enhance the user experience, making interactions with the game more intuitive and engaging.
 
 
-### Enjoy a fully automated Minesweeper experience, or take control by customizing your board and algorithm settings!
+
+### 📚 Acknowledgements
+
+This project was inspired by coursework from Harvard's CS50AI program. While the initial idea stemmed from the course, the codebase has been extensively expanded and rewritten to provide a more versatile and educational tool. The original code that passed CS50 tests is available in the v1.0 branch.
+
+
+### 📜 License
+
+This project is licensed under the MIT License. For more details, please see the LICENSE file.
+
+For detailed updates and change logs, please refer to the CHANGELOG.md.
   
 
