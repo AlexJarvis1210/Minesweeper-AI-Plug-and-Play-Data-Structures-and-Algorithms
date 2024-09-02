@@ -77,8 +77,7 @@ For a complete list of changes, you can check out the CHANGELOG.md.
 
 ### 📚 Acknowledgements
 
-This project was inspired by coursework from Harvard's CS50AI program. While the initial idea stemmed from the course, the codebase has been extensively expanded and rewritten to provide a more versatile and educational tool. The original code that passed CS50 tests is available in the v1.0 branch.
-
+This project was inspired by coursework from Harvard's CS50AI program. While the initial idea stemmed from the course, the codebase has been extensively expanded and rewritten to provide a more versatile and educational tool.
 
 ### 📜 License
 
