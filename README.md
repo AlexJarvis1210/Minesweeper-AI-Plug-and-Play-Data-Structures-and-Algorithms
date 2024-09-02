@@ -1,93 +1,89 @@
-# 🧠 **MinesweeperAI: Plug and play data structures and algorithms**
+# 🧠 MinesweeperAI: Plug and Play Data Structures and Algorithms
 
-Welcome to the project, a Python-based Minesweeper game with an AI solver.
+Welcome to MinesweeperAI, an interactive Python-based Minesweeper game with a powerful AI solver designed to make learning Data Structures and Algorithms (DSA) engaging and accessible.
 
-## 🚀 Current Version: v1.21
+## 🎓 About the Project
 
-### ✨ What's New in v1.21
+DSA is one of the most challenging subjects in computer science, often seen as dry and abstract. This project transforms these concepts into something visual and interactive, allowing you to see DSA in action! MinesweeperAI isn't just a game—it's a learning tool where you can observe different search algorithms and data structures tackling the classic Minesweeper puzzle in real-time. Whether you're a student or an educator, this project provides a practical and intuitive way to understand and teach DSA.
 
-- **Merged Game and Performance Stats:**
+### 💡 Features
 
-    Combined the Game Stats and Performance Stats panels into a single, streamlined UI panel. This change improves the clarity and aesthetics of the game's interface, providing users with all the relevant information in one place.
-- 
-    Dynamic Scaling of Text, Flags, and Mines: Implemented dynamic scaling for the text, flag, and mine icons on the board, which now adjusts according to the cell size. This ensures that all visual elements remain clear and proportionate, regardless of the board's dimensions.
-    Improved User-Selected Start Cell Logic: Refined the logic for user-selected starting positions to ensure more consistent and accurate starting cell placement, aligning with the intended user preferences.
-    Reworked Random Cell Selection: Updated the random cell choice logic to address the AI's tendency to encounter a "wall" of mines. The AI now attempts to strategically bypass this "wall," improving its chances of selecting a safer cell and successfully solving the board.
-    Renamed Game: The game has been rebranded as MinesweeperAI: Plug and Play Data Structures and Algorithms, reflecting its focus on customizable and experiment-friendly AI configurations.
+- Interactive DSA Learning: See how different algorithms and data structures operate in a real-world scenario.
+- Customisable AI Strategies: Plug and play with different configurations to explore their impacts.
+- Visual and Intuitive Interface: A clean and modern UI that makes understanding complex concepts more accessible.
+
+## 🎮 How to Use MinesweeperAI
+
+- Choose Your Algorithm: You can select from various search algorithms directly from the game menu. You can also experiment with different data structures to see how they influence the AI's performance.
+- Set Your Board: Use the options menu to customise the board size, number of mines, and speed and select your starting position for fairer comparisons.
+- Watch and Learn: Observe the AI as it solves the puzzle, displaying real-time statistics and decision-making processes.
 
 
-### ✨ **What's New in v1.1**
-- **🔧 Code Refactoring**
-  - Rebuilt the structure of the code base, extracting all classes into their own Python files and rebuilding the object references.
-  - The following encapsulation process has been implemented:
-    - Setters and getters implemented where another class is interacting with the data
-    - Internally, classes handle their data directly 
-  
-- **🤖 Automation**
-  - Enabled **full automation** of gameplay, eliminating the need for manual interactions.
-  
-- **🎨 Graphical Enhancements**
-  - Introduced **graphical representation** for flagging mines, enhancing the visual experience.
-  
-- **🔢 User Input**
-  - Added functionality allowing users to **adjust board size** through intuitive input.
+## 🚀 Current Version: v1.20
+### ✨ What's New in v1.20
 
----
+- Merged Game and Performance Stats: Combined the Game Stats and Performance Stats into a single, streamlined panel for a cleaner interface.
+- Dynamic Scaling: Text, flags, and mines now scale dynamically with cell size, ensuring clarity on any board size.
+- Improved Start Cell Logic: Enhanced the logic for user-selected starting positions for more consistent and accurate placement.
+- Strategic Random Cell Selection: Reworked AI logic to better navigate around potential mine "walls," improving its ability to solve the board.
 
-## 📅 **Future Updates**
+For a complete list of changes, you can check out the CHANGELOG.md.
 
-### v1.2 (Planned)
-- **🔧 Code Refactoring**
-  - Complete the code restructuring by sharing the workload of run_game.py across the other classes where appropriate.
-  - Ensure the entire codebase is PEP8 compliant.
-- **🖥️ User Interface Improvements**
-  - Display the **live knowledge base** directly on the screen.
-  - Show an **inference logic table** in action during gameplay.
-  - Display the number of iterations the `add_knowledge` function takes to solve the puzzle.
-  
-- **🔍 Complexity Calculation**
-  - Introduce a **complexity calculator** to evaluate the computational effort required for different board configurations.
+##  ⚙️ Project Setup
+### Prerequisites
 
-### v1.3 (Planned)
-- **🎨 UI Overhaul**
-  - A complete **user interface overhaul** to provide a more intuitive and visually appealing experience.
+- Python 3.x
+- Pygame
 
----
+## **Installation Steps**
 
-## ⚙️ **Project Setup**
+1. Clone the Repository:
 
-### **Prerequisites**
-- **Python 3.x**
-- **Pygame**
-
-### **Installation Steps**
-1. **Clone the Repository**:
-
-   git clone https://github.com/AlexJarvis1210/MinesweeperAI
+    git clone https://github.com/AlexJarvis1210/Minesweeper-AI-Plug-and-Play-Data-Structures-and-Algorithms
 
 2. Navigate to the Project Directory:
 
-cd MinesweeperAI
+    cd MinesweeperAI_v1.20
 
-Install Required Packages:
+3. Install Required Packages:
 
     pip install -r requirements.txt
 
-🎮 How to Play
+4. Run the Game:
 
-Run the game with the following command:
+   python minesweeper_runner.py
+
+## 📅 Future Updates
+### v1.3 (Planned)
+
+### Enhanced User Experience:
+- Introduce tooltips across the interface to provide users with helpful hints and explanations.
+- Add a tutorial page to guide new users through the features and functions of MinesweeperAI.
+- Streamline the user interface by reorganising and optimising UI elements for better user flow.
+
+### Inference Logic Table Visuals:
+- Implement visual representations of the inference logic, allowing users to observe the decision-making process in real-time.
+
+### Improved Random Cell Selection:
+- Refine the random cell selection algorithm to enhance the AI's ability to strategically navigate the board.
+
+### Expanded Data Collection:
+- Add new data collection points, including timing, the number of random selections, and other metrics currently in development, to provide deeper insights into the AI's performance.
+
+### Feedback Sounds:
+- Introduce auditory feedback to enhance the user experience, making interactions with the game more intuitive and engaging.
 
 
-    python run_game.py
 
-Enjoy the fully automated Minesweeper experience, or test your skills by adjusting the board size and taking control`!
+### 📚 Acknowledgements
 
-📚 Acknowledgements
+This project was inspired by coursework from Harvard's CS50AI program. While the initial idea stemmed from the course, the codebase has been extensively expanded and rewritten to provide a more versatile and educational tool. The original code that passed CS50 tests is available in the v1.0 branch.
 
-This project was initially inspired by coursework from Harvard's CS50AI program. While the initial structure and problem were based on the course, the current codebase has been significantly expanded and rewritten, representing original work. The original code that passed the CS50 tests is available in the v1.0 branch.
 
-📜 License
+### 📜 License
 
-This project is licensed under the MIT License. For more details, please take a look at the LICENSE file.
+This project is licensed under the MIT License. For more details, please see the LICENSE file.
 
-For a detailed list of changes and updates, please look at the CHANGELOG.
+For detailed updates and change logs, please refer to the CHANGELOG.md.
+  
+
